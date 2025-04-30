@@ -24,29 +24,32 @@ function App() {
     </header>
     <main>
       <aside className='sobre'>
-        <img src={perfil} alt="eu" className='perfil'/>
-        <h2>Olá, sou <span>Desenvolvedor fullstack junior</span></h2>
-        <p>
-        Desenvolvedor em formação com 8 meses de experiência prática em projetos de front-end e back-end.
-        Proativo, focado em resultados e com forte capacidade de adaptação e aprendizado
-        rápido. 
-        Busco oportunidade para aplicar meus conhecimentos em JavaScript, React e Node.js, 
-        contribuindo com soluções escaláveis e eficientes.
-        </p>
+        <div className='perfil-container'>
+          <img src={perfil} alt="eu" className='perfil'/>
+          <h2>Olá, sou <span>Desenvolvedor fullstack junior</span></h2>
+          <p>
+          Desenvolvedor em formação com 8 meses de experiência prática em projetos de front-end e back-end.
+          Proativo, focado em resultados e com forte capacidade de adaptação e aprendizado
+          rápido. 
+          Busco oportunidade para aplicar meus conhecimentos em JavaScript, React e Node.js, 
+          contribuindo com soluções escaláveis e eficientes.
+          </p>
+        </div>
       </aside>
       <aside className='skill'>
         <div className='skills'>
-        <h2>SKILLS</h2>
-          <img src={html} alt="html" className='space'/>
-          <img src={css} alt="css" className='space'/>
-          <img src={js} alt="java script" className='space'/>
-          <img src={react} alt="react" className='space' />
-          <img src={node} alt="node" className='space' />
-          <img src={sql} alt="MySQL" className='space'/>
-          <img src={mongo} alt="mongo" className='space'/>
-          <img src={api} alt="api" className='space'/>
-          <img src={git} alt="git" className='space'/>
+          <h2>SKILLS</h2>
+            <img src={html} alt="html" className='space'/>
+            <img src={css} alt="css" className='space'/>
+            <img src={js} alt="java script" className='space'/>
+            <img src={react} alt="react" className='space' />
+            <img src={node} alt="node" className='space' />
+            <img src={sql} alt="MySQL" className='space'/>
+            <img src={mongo} alt="mongo" className='space'/>
+            <img src={api} alt="api" className='space'/>
+            <img src={git} alt="git" className='space'/>
         </div>
+        
         <div className='projetos'>
         <h2>PROJETOS</h2>
           <p>Estou criando uma versão propria do "Anota ai" ainda está em processo!</p>
