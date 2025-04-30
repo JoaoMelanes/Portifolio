@@ -1,0 +1,175 @@
+.perfil{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.projeto{
+    width: 200px;
+    height: 200px;
+}
+
+.space{
+    width: 50px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px;
+}
+header{
+    display: flex;
+    padding: 1em;
+    background-color: black;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 1em;
+    box-shadow: 0px 3px 3px rgb(29, 29, 29);
+    justify-content: space-between;
+}
+header h1 {
+    background: linear-gradient(90deg, red, yellow);
+    width: 250px;
+    background-clip:text;
+    color: transparent;
+}
+header a{
+    border: none;
+    background-color: transparent;
+    border: 1px solid red;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    transition: .5s;
+}
+header a:hover{
+    color: white;
+    padding: 12px;
+    background-color: red;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.sobre{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    gap: 1em;
+    font-size: 23px;
+}
+.sobre p{
+    color: rgb(255, 255, 255);
+}
+.sobre img{
+    border-radius: 50%;
+    border: 5px solid rgb(251, 73, 73);
+}
+.sobre span{
+    background: linear-gradient(90deg, red, yellow);
+    color: transparent;
+    background-clip: text
+}
+
+.skill{
+    padding: 10px;
+    color: white;
+}
+
+.skill h2{
+    margin-bottom: 1rem;
+    text-align: center;
+    background: linear-gradient(90deg, red, yellow);
+    background-clip: text;
+    color: transparent;
+}
+
+.skills{
+    box-shadow: 0px 3px 3px 2px #212121;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.space{
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.space:hover{
+    border: 1px solid rgb(251, 73, 73);
+}
+
+.projetos{
+    box-shadow: 0px 3px 3px 2px #212121;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos img{
+    width: 98%;
+   
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 2px #212121;
+}
+
+.projetos a{
+    border: none;
+    background-color: transparent;
+    border: 1px solid red;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    transition: .5s;
+}
+.projetos a:hover{
+    color: white;
+    background-color: red;
+}
+
+.contato{
+    box-shadow: 0px 3px 3px 2px #212121;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.backgrond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.backgrond a {
+    background-color: transparent;
+}
+.backgrond a img{
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+
+.backgrond img:hover{
+    border: 1px solid rgb(251, 73, 73);
+}
